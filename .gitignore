@@ -1,0 +1,55 @@
+# Ruby on Rails
+/log/*
+/tmp/* 
+/db/*.sqlite3
+/db/*.sqlite3-*
+/public/assets
+
+# Docker
+docker-compose.yml
+.dockerignore
+.env
+
+# Dependency directories
+/vendor/bundle
+
+# RubyMine
+*/**/.idea
+
+# VSCode 
+*/**/.vscode
+
+# Vim
+*/**/.*.sw?
+
+# Python
+*/**/__pycache__/
+*/**/*.py[cod]
+*/**/.Python
+*/**/pip-selfcheck.json
+*/**/.mypy_cache/
+*/**/.nox/
+*/**/dist/
+
+# PyCharm
+*/**/.idea/
+
+# Virtualenv
+*/**/.venv
+*/**/venv/
+*/**/ENV/
+
+# Pyenv
+*/**/.python-version
+
+# rbenv
+*/**/.ruby-version  
+
+# Ruby Gems
+/pkg
+
+# Caches
+*/**/.bundle
+*/**/log/*
+*/**/tmp/*
+*/**/node_modules
